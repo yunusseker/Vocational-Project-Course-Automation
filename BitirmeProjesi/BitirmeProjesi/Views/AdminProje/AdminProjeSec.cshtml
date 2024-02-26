@@ -1,0 +1,130 @@
+﻿@using BitirmeProjesi.Models
+@model List<Projeler>
+
+
+@{
+    Layout = null;
+    DbOTOMASYONEntities db = new DbOTOMASYONEntities();
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AdminProjeSec</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <script src="~/Scripts/jquery-3.0.0.min.js"></script>
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/Style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="vertical-nav bg-white" id="sidebar;" style="width:280px;">
+
+        <ul class="nav flex-column bg-white mb-0">
+
+            <li class="nav-item">
+                <a href="/AdminOgrenci/AdminOgrenci" class="nav-link text-dark font-italic bg-light">
+                    Öğrenciler
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/AdminAkademisyen/AdminAkademisyen" class="nav-link text-dark font-italic bg-light">
+                    Akademisylenler
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/AdminProje/AdminProje" class="nav-link text-dark font-italic bg-light">
+                    Projeler
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/AdminBölüm/AdminBölüm" class="nav-link text-dark font-italic bg-light">
+                    Bölümler
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/OgrenciLogin/LogOut" style="color:black" class="nav-link text-dark font-italic">
+                    Çıkış Yap
+                </a>
+            </li>
+        </ul>
+        <div class="page-content p-5 " id="content">
+        </div>
+    </div>
+
+
+    <div class="adminiçerik">
+
+        <a href="/AdminProje/AdminProjeEkle" class="btn btn-info">Proje Eklemek İçin Tıklayınız    </a>
+        <br /><br />
+
+        <table class="table" style="width:220px">
+            <tr class="thead-dark">
+
+                <th scope="col">Akademisyen ID</th>
+                <th scope="col">ID</th>
+                <th scope="col">Proje Ad</th>
+                <th scope="col">Proje Tanımı</th>
+                <th scope="col">Öğrenci Adı</th>
+                <th scope="col">Öğrenci Soyadı</th>
+                <th scope="col">Durum</th>
+
+                <th></th>
+            </tr>
+
+
+            <tbody>
+                @foreach (var prj in Model)
+                {
+                    string ButtonStatus = ""; // disabled
+                    string ograd = "";
+                    string ogrsoyad = "";
+
+                    var kontrol = db.Öğrenciler.SingleOrDefault(Öğrenciler => Öğrenciler.Proje_Id == prj.Proje_Id);
+
+                    if (kontrol != null)
+                    {
+                        ButtonStatus = "disabled";
+                        ograd = kontrol.OgrenciAd;
+                        ogrsoyad = kontrol.OgrenciSoyad;
+
+
+                    }
+
+
+                    <tr>
+                        <td class="font-italic">@prj.Akademisyen_Id</td>
+                        <td class="font-italic">@prj.Proje_Id</td>
+                        <td class="font-italic">@prj.ProjeAd</td>
+                        <td class="font-italic">@prj.ProjeTanimi</td>
+                        <td class="font-italic">@ograd</td>
+                        <td class="font-italic">@ogrsoyad</td>
+                        <td><a href="/AdminProje/AdminProjeSil/@prj.Proje_Id" class="btn btn-dark font-italic @ButtonStatus">Sil</a> 
+                        <td><a href="/AdminProje/AdminProjeGüncelle/@prj.Proje_Id" class="btn btn-danger font-italic">Güncelle</a>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+</body>
+
+
+
+
+</html>
+

@@ -1,0 +1,62 @@
+﻿@model BitirmeProjesi.Models.Öğrenciler
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Style.css" rel="stylesheet" type="text/css" />
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <script src="~/Scripts/jquery-3.0.0.min.js"></script>
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+
+    <title>Öğrenci Giriş</title>
+</head>
+<body class="arka">
+
+
+    @using (Html.BeginForm("Login", "OgrenciLogin", FormMethod.Post))
+    {
+
+        <div>
+
+            <div id="container">
+                <img src="~/Images/LOGO.png" height="80" style="margin-left:10px; margin-top:10px;" />
+                <p style="float:right;margin-right:40px;line-height:4; font-size:24px; margin-right:29px; margin-bottom:30px" class="font-italic">Proje Seçim Otomasyonu</p>
+
+                <div class="form-group" style="margin-left:20%; margin-right:20%">
+                    @Html.TextBoxFor(m => m.KullanıcıAd, new { @class = "form-control", @placeholder = "Kullanıcı Adı" })
+                </div>
+                <div class="form-group" style="margin-left:20%; margin-right:20%; margin-bottom:35px">
+                    @Html.PasswordFor(m => m.Şifre, new { @class = "form-control", @placeholder = "Şifre" })
+                </div>
+                <br />&emsp;&emsp;<input type="submit" value="Giriş Yap" style="float:left;margin-left:162px;" class="btn btn-success font-italic" /><br />
+
+                <br />
+                <div class="alert-info text-center" style="margin-right:auto;">@ViewBag.Hata</div>
+            </div><!-- container kapatildi-->
+
+
+
+            <div id="footer" style="margin-top:532px" >
+
+        <span class="font-italic" style="margin-left:500px;">Bizi Takip Edin </span>
+
+        <i class="fa fa-facebook-square" style="margin-left:25px; font-size:30px;"></i>
+        <i class="fa fa-twitter-square" style="font-size:30px; margin-left:20px;"></i>
+        <i class="fa fa-linkedin-square" style="font-size:30px; margin-left:20px;"></i>
+        <i class="fa fa-instagram" style="font-size:30px; margin-left:20px;"></i>
+        <i class="fa fa-youtube-square" style="font-size:30px; margin-left:20px;"></i>
+
+    </div><!-- footer kapatildi-->
+
+        </div>
+    }
+</body>
+</html>

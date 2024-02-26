@@ -1,0 +1,45 @@
+﻿@model BitirmeProjesi.Models.Öğrenciler
+@{
+    ViewBag.Title = "OgrenciEdit";
+    Layout = "~/Views/OgrenciMenu/_Layout.cshtml";
+}
+<div style="margin-left:7%">
+
+    <form method="post" style="position:relative; bottom:60px;">
+    <h1 class="font-italic" style="bottom:85px; margin-left:60px">Profil Güncelle</h1>
+    <hr />
+    <div class="form-group font-italic font-weight-bold">
+        <span>Öğrenci Ad </span>&emsp;&emsp;&emsp;
+        @Html.TextBoxFor(m => m.OgrenciAd)
+        <br />
+        <br />
+        <hr class="bg-dark" />
+        <br />
+        <br />
+        <span>Öğrenci Soyad</span>&emsp;&emsp;
+        @Html.TextBoxFor(m => m.OgrenciSoyad)
+        <br />
+        <br />
+        <hr class="bg-dark" />
+        <br />
+        <br />
+        <span>Öğrenci Şifre</span>&emsp;&emsp;&emsp;
+        @Html.TextBoxFor(m => m.Şifre)
+        <br />
+        <br />
+        <hr class="bg-dark" />
+        <br />
+        <br />
+        <span>Öğrenci ID</span>&emsp;&emsp;&emsp;&emsp;
+        @Html.TextBoxFor(m => m.Ogrenci_Id)
+    </div>
+    <br />
+    <br />
+
+
+    &emsp;&emsp;&emsp;&emsp;&emsp;<button class="btn btn-warning font-italic">Güncelle</button><br />
+    &emsp;&emsp; &emsp;&emsp;&emsp;<span> @ViewBag.Hata</span>
+</form>
+
+</div>
+

@@ -1,0 +1,35 @@
+﻿@using BitirmeProjesi.Models
+@model List<Bölümler>
+
+@{
+    ViewBag.Title = "Bolumler";
+    Layout = "~/Views/OgrenciMenu/_Layout.cshtml";
+}
+
+
+<h2 style="position:relative; bottom:65px; margin-left:60px">Bölümler</h2>
+<table class="table" style="position:relative; bottom:40px; ">
+    <tr class="thead-dark">
+
+        <th scope="col">ID</th>
+        <th scope="col">Bölümler</th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    <tbody>
+        @foreach (var blm in Model)
+        {
+            <tr>
+                <td class="font-italic">@blm.Bölüm_Id</td>
+                <td class="font-italic">@blm.BölümAd</td>
+                <td></td>
+                <td></td>
+                <td></td>
+               
+
+            </tr>
+        }
+    </tbody>
+</table>

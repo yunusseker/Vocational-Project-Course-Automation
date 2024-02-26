@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OTOMASYONModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="AdminID" />
+    </Key>
+    <Property Name="AdminID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AdminUserName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="AdminPassword" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Akademisyenler">
+    <Key>
+      <PropertyRef Name="Akademisyen_Id" />
+    </Key>
+    <Property Name="Akademisyen_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AkademisyenAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AkademisyenSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AkademisyenKullanıcı" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AkademisyenŞifre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Bölüm_Id" Type="Int32" />
+    <NavigationProperty Name="Bölümler" Relationship="Self.FK_Akademisyenler_Bölümler" FromRole="Akademisyenler" ToRole="Bölümler" />
+  </EntityType>
+  <EntityType Name="Bölümler">
+    <Key>
+      <PropertyRef Name="Bölüm_Id" />
+    </Key>
+    <Property Name="Bölüm_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BölümAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Akademisyenler" Relationship="Self.FK_Akademisyenler_Bölümler" FromRole="Bölümler" ToRole="Akademisyenler" />
+    <NavigationProperty Name="Öğrenciler" Relationship="Self.FK_Öğrenciler_Bölümler" FromRole="Bölümler" ToRole="Öğrenciler" />
+    <NavigationProperty Name="Projeler" Relationship="Self.FK_Projeler_Bölümler" FromRole="Bölümler" ToRole="Projeler" />
+  </EntityType>
+  <EntityType Name="Öğrenciler">
+    <Key>
+      <PropertyRef Name="Ogrenci_Id" />
+    </Key>
+    <Property Name="Ogrenci_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OgrenciAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="OgrenciSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="KullanıcıAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Şifre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Bölüm_Id" Type="Int32" />
+    <Property Name="Proje_Id" Type="Int32" />
+    <NavigationProperty Name="Bölümler" Relationship="Self.FK_Öğrenciler_Bölümler" FromRole="Öğrenciler" ToRole="Bölümler" />
+    <NavigationProperty Name="Projeler" Relationship="Self.FK_Öğrenciler_Projeler" FromRole="Öğrenciler" ToRole="Projeler" />
+  </EntityType>
+  <EntityType Name="Projeler">
+    <Key>
+      <PropertyRef Name="Proje_Id" />
+    </Key>
+    <Property Name="Proje_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProjeAd" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ProjeTanimi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Bölüm_Id" Type="Int32" />
+    <Property Name="Akademisyen_Id" Type="Int32" />
+    <NavigationProperty Name="Bölümler" Relationship="Self.FK_Projeler_Bölümler" FromRole="Projeler" ToRole="Bölümler" />
+    <NavigationProperty Name="Öğrenciler" Relationship="Self.FK_Öğrenciler_Projeler" FromRole="Projeler" ToRole="Öğrenciler" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Akademisyenler_Bölümler">
+    <End Role="Bölümler" Type="Self.Bölümler" Multiplicity="0..1" />
+    <End Role="Akademisyenler" Type="Self.Akademisyenler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bölümler">
+        <PropertyRef Name="Bölüm_Id" />
+      </Principal>
+      <Dependent Role="Akademisyenler">
+        <PropertyRef Name="Bölüm_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Öğrenciler_Bölümler">
+    <End Role="Bölümler" Type="Self.Bölümler" Multiplicity="0..1" />
+    <End Role="Öğrenciler" Type="Self.Öğrenciler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bölümler">
+        <PropertyRef Name="Bölüm_Id" />
+      </Principal>
+      <Dependent Role="Öğrenciler">
+        <PropertyRef Name="Bölüm_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Projeler_Bölümler">
+    <End Role="Bölümler" Type="Self.Bölümler" Multiplicity="0..1" />
+    <End Role="Projeler" Type="Self.Projeler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bölümler">
+        <PropertyRef Name="Bölüm_Id" />
+      </Principal>
+      <Dependent Role="Projeler">
+        <PropertyRef Name="Bölüm_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Öğrenciler_Projeler">
+    <End Role="Projeler" Type="Self.Projeler" Multiplicity="0..1" />
+    <End Role="Öğrenciler" Type="Self.Öğrenciler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Projeler">
+        <PropertyRef Name="Proje_Id" />
+      </Principal>
+      <Dependent Role="Öğrenciler">
+        <PropertyRef Name="Proje_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DbOTOMASYONEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Admin" EntityType="Self.Admin" />
+    <EntitySet Name="Akademisyenler" EntityType="Self.Akademisyenler" />
+    <EntitySet Name="Bölümler" EntityType="Self.Bölümler" />
+    <EntitySet Name="Öğrenciler" EntityType="Self.Öğrenciler" />
+    <EntitySet Name="Projeler" EntityType="Self.Projeler" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK_Akademisyenler_Bölümler" Association="Self.FK_Akademisyenler_Bölümler">
+      <End Role="Bölümler" EntitySet="Bölümler" />
+      <End Role="Akademisyenler" EntitySet="Akademisyenler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Öğrenciler_Bölümler" Association="Self.FK_Öğrenciler_Bölümler">
+      <End Role="Bölümler" EntitySet="Bölümler" />
+      <End Role="Öğrenciler" EntitySet="Öğrenciler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Projeler_Bölümler" Association="Self.FK_Projeler_Bölümler">
+      <End Role="Bölümler" EntitySet="Bölümler" />
+      <End Role="Projeler" EntitySet="Projeler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Öğrenciler_Projeler" Association="Self.FK_Öğrenciler_Projeler">
+      <End Role="Projeler" EntitySet="Projeler" />
+      <End Role="Öğrenciler" EntitySet="Öğrenciler" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

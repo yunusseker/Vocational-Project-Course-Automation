@@ -1,0 +1,252 @@
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\BitirmeProjesi.dll.config
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\BitirmeProjesi.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\BitirmeProjesi.pdb
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csc.exe
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csc.exe.config
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csc.rsp
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csi.exe
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csi.exe.config
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csi.rsp
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.AppContext.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Console.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.IO.Compression.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Net.Http.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Net.Sockets.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.ValueTuple.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Xml.XPath.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\vbc.exe
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\vbc.exe.config
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\vbc.rsp
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\VBCSCompiler.exe
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Helpers.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Mvc.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Razor.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.Deployment.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.Razor.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Razor.xml
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.xml
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.Deployment.xml
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.Razor.xml
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Helpers.xml
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Mvc.xml
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Razor.resources.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\obj\Debug\BitirmeProjesi.csprojAssemblyReference.cache
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\obj\Debug\BitirmeProjesi.csproj.CoreCompileInputs.cache
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\obj\Debug\BitirmeProjesi.csproj.CopyComplete
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\obj\Debug\BitirmeProjesi.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\obj\Debug\BitirmeProjesi.pdb
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\EntityFramework.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\EntityFramework.SqlServer.dll
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\EntityFramework.xml
+C:\Users\sentu\Desktop\Fatih Şentürk\BitirmeProjesi\BitirmeProjesi\bin\EntityFramework.SqlServer.xml
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\BitirmeProjesi.dll.config
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\BitirmeProjesi.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\BitirmeProjesi.pdb
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csc.exe
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csc.exe.config
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csc.rsp
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csi.exe
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csi.exe.config
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csi.rsp
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.AppContext.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Console.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.IO.Compression.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Net.Http.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Net.Sockets.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.ValueTuple.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Xml.XPath.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\vbc.exe
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\vbc.exe.config
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\vbc.rsp
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\VBCSCompiler.exe
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\EntityFramework.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\EntityFramework.SqlServer.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Helpers.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Mvc.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Razor.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.Razor.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\EntityFramework.xml
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\EntityFramework.SqlServer.xml
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Razor.xml
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.xml
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.Razor.xml
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Helpers.xml
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Mvc.xml
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Razor.resources.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\obj\Debug\BitirmeProjesi.csprojAssemblyReference.cache
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\obj\Debug\BitirmeProjesi.csproj.CoreCompileInputs.cache
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\obj\Debug\BitirmeProjesi.csproj.CopyComplete
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\obj\Debug\BitirmeProjesi.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\obj\Debug\BitirmeProjesi.pdb
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\Newtonsoft.Json.dll
+C:\Users\TRKMN\Desktop\BitirmeProjesi\BitirmeProjesi\bin\Newtonsoft.Json.xml
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\obj\Debug\BitirmeProjesi.csprojAssemblyReference.cache
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\obj\Debug\BitirmeProjesi.csproj.CoreCompileInputs.cache
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\obj\Debug\BitirmeProjesi.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\obj\Debug\BitirmeProjesi.pdb
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\BitirmeProjesi.dll.config
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\BitirmeProjesi.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\BitirmeProjesi.pdb
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csc.exe
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csc.exe.config
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csc.rsp
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csi.exe
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csi.exe.config
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\csi.rsp
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.AppContext.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Console.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.IO.Compression.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Net.Http.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Net.Sockets.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.ValueTuple.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Xml.XPath.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\vbc.exe
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\vbc.exe.config
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\vbc.rsp
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\VBCSCompiler.exe
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\EntityFramework.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\EntityFramework.SqlServer.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\Newtonsoft.Json.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Helpers.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Mvc.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Razor.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.Deployment.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.Razor.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\EntityFramework.xml
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\EntityFramework.SqlServer.xml
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\Newtonsoft.Json.xml
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Razor.xml
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.xml
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.Deployment.xml
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Webpages.Razor.xml
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Helpers.xml
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\System.Web.Mvc.xml
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Razor.resources.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\obj\Debug\BitirmeProjesi.csproj.CopyComplete
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\FluentValidation.dll
+C:\Users\yunus\OneDrive\Masaüstü\SON SÜRÜM\BitirmeProjesi\BitirmeProjesi\BitirmeProjesi\bin\FluentValidation.xml

@@ -1,0 +1,35 @@
+﻿@using BitirmeProjesi.Models
+@model List<Akademisyenler>
+
+@{
+    ViewBag.Title = "Akademisyenler";
+    Layout = "~/Views/OgrenciMenu/_Layout.cshtml";
+}
+
+<h2 class="font-italic" style="position:relative; bottom:65px; margin-left:60px">Akademisyenler</h2>
+
+<table class="table" style="position:relative; bottom:55px;">
+    <tr class="thead-dark">
+
+        <th scope="col">ID</th>
+        <th scope="col">Akademisyen Adı</th>
+        <th scope="col">Akademisyen Soyadı</th>
+        <th scope="col">Akademisyen E-posta</th>
+    
+    </tr>
+
+    <tbody>
+        @foreach (var akd in Model)
+        {
+            <tr>
+                <td class="font-italic">@akd.Akademisyen_Id</td>
+                <td class="font-italic">@akd.AkademisyenAd</td>
+                <td class="font-italic">@akd.AkademisyenSoyad</td>
+                <td class="font-italic">@akd.AkademisyenKullanıcı</td>
+                 
+
+
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,104 @@
+﻿@using BitirmeProjesi.Models
+@model List<Öğrenciler>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AdminAkademisyen</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <script src="~/Scripts/jquery-3.0.0.min.js"></script>
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/Style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    <div class="vertical-nav bg-white" id="sidebar;" style="width:280px;">
+
+        <ul class="nav flex-column bg-white mb-0">
+
+            <li class="nav-item">
+                <a href="/AdminOgrenci/AdminOgrenci" class="nav-link text-dark font-italic bg-light">
+                    Öğrenciler
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/AdminAkademisyen/AdminAkademisyen" class="nav-link text-dark font-italic bg-light">
+                    Akademisylenler
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/AdminProje/AdminProje" class="nav-link text-dark font-italic bg-light">
+                    Projeler
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/AdminBölüm/AdminBölüm" class="nav-link text-dark font-italic bg-light">
+                    Bölümler
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/OgrenciLogin/LogOut" style="color:black" class="nav-link text-dark font-italic">
+                    Çıkış Yap
+                </a>
+            </li>
+        </ul>
+        <div class="page-content p-5 " id="content">
+        </div>
+
+    </div>
+
+    <div class="adminiçerik">
+        <a href="/AdminOgrenci/AdminOgrenciEkle" class="btn btn-info font-italic">Ogrenci Ekle</a> <br /><br />
+        <table class="table" style="width:70%">
+
+            <tr class="thead-dark">
+                <th scope="col">ID</th>
+                <th scope="col">Ad</th>
+                <th scope="col">Soyad</th>
+                <th scope="col">Kullanıcı Adı</th>
+                <th scope="col">Şifre</th>
+                <th scope="col">Bölüm ID</th>
+                <th scope="col">Proje ID</th>
+                <th scope="col">Durum</th>
+                <th></th>
+                <th></th>
+            </tr>
+
+            <tbody>
+                @foreach (var ogr in Model)
+                {
+                    <tr>
+                        <td class="font-italic">@ogr.Ogrenci_Id</td>
+                        <td class="font-italic">@ogr.OgrenciAd</td>
+                        <td class="font-italic">@ogr.OgrenciSoyad</td>
+                        <td class="font-italic">@ogr.KullanıcıAd</td>
+                        <td class="font-italic">@ogr.Şifre</td>
+                        <td class="font-italic">@ogr.Bölüm_Id</td>
+                        <td class="font-italic">@ogr.Proje_Id</td>
+                        <td> <a href="/AdminOgrenci/AdminOgrenciSil/@ogr.Ogrenci_Id" class="btn btn-dark font-italic"> Sil</a>    <a href="/AdminOgrenci/AdminOgrenciGüncelle/@ogr.Ogrenci_Id" class="btn btn-danger font-italic">Güncelle</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+
+
+
+
+    </div>
+
+</body>
+
+
+</html>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DENEMEModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Akademisyen">
+    <Key>
+      <PropertyRef Name="Akademisyen_ID" />
+    </Key>
+    <Property Name="Akademisyen_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AkademisyenAd" Type="nvarchar" MaxLength="50" />
+    <Property Name="AkademisyenSoyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="AkademisyenKullanıcı" Type="nvarchar" MaxLength="50" />
+    <Property Name="AkademisyenŞifre" Type="varchar" MaxLength="50" />
+    <Property Name="Blm_ID" Type="int" />
+    <Property Name="Prj_ID" Type="int" />
+  </EntityType>
+  <EntityType Name="Bölüm">
+    <Key>
+      <PropertyRef Name="Blm_ID" />
+    </Key>
+    <Property Name="Blm_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BlmAd" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Öğrenci">
+    <Key>
+      <PropertyRef Name="Ogr_ID" />
+    </Key>
+    <Property Name="Ogr_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OgrAd" Type="nvarchar" MaxLength="50" />
+    <Property Name="OgrSoyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="KullanıcıAd" Type="nvarchar" MaxLength="50" />
+    <Property Name="Şifre" Type="varchar" MaxLength="50" />
+    <Property Name="Blm_ID" Type="int" />
+    <Property Name="Prj_ID" Type="int" />
+  </EntityType>
+  <EntityType Name="Proje">
+    <Key>
+      <PropertyRef Name="Prj_ID" />
+    </Key>
+    <Property Name="Prj_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PrjAd" Type="nvarchar" MaxLength="50" />
+    <Property Name="Blm_ID" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_Akademisyen_Bölüm">
+    <End Role="Bölüm" Type="Self.Bölüm" Multiplicity="0..1" />
+    <End Role="Akademisyen" Type="Self.Akademisyen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bölüm">
+        <PropertyRef Name="Blm_ID" />
+      </Principal>
+      <Dependent Role="Akademisyen">
+        <PropertyRef Name="Blm_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Akademisyen_Proje">
+    <End Role="Proje" Type="Self.Proje" Multiplicity="0..1" />
+    <End Role="Akademisyen" Type="Self.Akademisyen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proje">
+        <PropertyRef Name="Prj_ID" />
+      </Principal>
+      <Dependent Role="Akademisyen">
+        <PropertyRef Name="Prj_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Öğrenci_Bölüm">
+    <End Role="Bölüm" Type="Self.Bölüm" Multiplicity="0..1" />
+    <End Role="Öğrenci" Type="Self.Öğrenci" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bölüm">
+        <PropertyRef Name="Blm_ID" />
+      </Principal>
+      <Dependent Role="Öğrenci">
+        <PropertyRef Name="Blm_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Öğrenci_Proje">
+    <End Role="Proje" Type="Self.Proje" Multiplicity="0..1" />
+    <End Role="Öğrenci" Type="Self.Öğrenci" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proje">
+        <PropertyRef Name="Prj_ID" />
+      </Principal>
+      <Dependent Role="Öğrenci">
+        <PropertyRef Name="Prj_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Proje_Bölüm">
+    <End Role="Bölüm" Type="Self.Bölüm" Multiplicity="0..1" />
+    <End Role="Proje" Type="Self.Proje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bölüm">
+        <PropertyRef Name="Blm_ID" />
+      </Principal>
+      <Dependent Role="Proje">
+        <PropertyRef Name="Blm_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DENEMEModelStoreContainer">
+    <EntitySet Name="Akademisyen" EntityType="Self.Akademisyen" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Bölüm" EntityType="Self.Bölüm" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Öğrenci" EntityType="Self.Öğrenci" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Proje" EntityType="Self.Proje" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Akademisyen_Bölüm" Association="Self.FK_Akademisyen_Bölüm">
+      <End Role="Bölüm" EntitySet="Bölüm" />
+      <End Role="Akademisyen" EntitySet="Akademisyen" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Akademisyen_Proje" Association="Self.FK_Akademisyen_Proje">
+      <End Role="Proje" EntitySet="Proje" />
+      <End Role="Akademisyen" EntitySet="Akademisyen" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Öğrenci_Bölüm" Association="Self.FK_Öğrenci_Bölüm">
+      <End Role="Bölüm" EntitySet="Bölüm" />
+      <End Role="Öğrenci" EntitySet="Öğrenci" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Öğrenci_Proje" Association="Self.FK_Öğrenci_Proje">
+      <End Role="Proje" EntitySet="Proje" />
+      <End Role="Öğrenci" EntitySet="Öğrenci" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Proje_Bölüm" Association="Self.FK_Proje_Bölüm">
+      <End Role="Bölüm" EntitySet="Bölüm" />
+      <End Role="Proje" EntitySet="Proje" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

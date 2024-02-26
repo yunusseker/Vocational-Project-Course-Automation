@@ -1,0 +1,83 @@
+﻿@model BitirmeProjesi.Models.Öğrenciler
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AdminOgrenciEkle</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <script src="~/Scripts/jquery-3.0.0.min.js"></script>
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/Style.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+
+    <div class="vertical-nav bg-white" id="sidebar;" style="width:280px;">
+
+        <ul class="nav flex-column bg-white mb-0">
+
+            <li class="nav-item">
+                <a href="/AdminOgrenci/AdminOgrenci" class="nav-link text-dark font-italic bg-light">
+                    Öğrenciler
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/AdminAkademisyen/AdminAkademisyen" class="nav-link text-dark font-italic bg-light">
+                    Akademisylenler
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/AdminProje/AdminProje" class="nav-link text-dark font-italic bg-light">
+                    Projeler
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/AdminBölüm/AdminBölüm" class="nav-link text-dark font-italic bg-light">
+                    Bölümler
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/OgrenciLogin/LogOut" style="color:black" class="nav-link text-dark font-italic">
+                    Çıkış Yap
+                </a>
+            </li>
+        </ul>
+        <div class="page-content p-5 " id="content">
+        </div>
+
+    </div>
+
+
+    <div class="adminiçerik">
+        @using (Html.BeginForm("AdminOgrenciEkle", "AdminOgrenci", FormMethod.Post))
+        {
+            <span style="margin-left:10px; font-size:20px;" class="font-italic">Ogrenci Adı :&emsp;&emsp;&emsp;</span>@Html.TextBoxFor(x => x.OgrenciAd)<br /><br /><hr class="bg-info" /><br /><br />
+            <span style="margin-left:10px; font-size:20px;" class="font-italic">Ogrenci Soyadı : &emsp; </span>@Html.TextBoxFor(x => x.OgrenciSoyad)<br /><br /><hr class="bg-info" /><br /><br />
+            <span style="margin-left:10px; font-size:20px;" class="font-italic">Ogrenci Kull. Adı :&emsp;</span>@Html.TextBoxFor(x => x.KullanıcıAd)<br /><br /><hr class="bg-info" /><br /><br />
+            <span style="margin-left:10px; font-size:20px;" class="font-italic">Ogrenci Şifre :  &emsp;&emsp; </span>@Html.TextBoxFor(x => x.Şifre)<br /><br /><hr class="bg-info" /><br /><br />
+            <span style="margin-left:10px; font-size:20px;" class="font-italic">Ogrenci Bölümü : &emsp;</span>@Html.DropDownListFor(x => x.Bölüm_Id, ViewBag.bölümlist as SelectList, "Bölüm Seçiniz")<br /><br /><hr class="bg-info" /><br /><br />
+
+            @Html.HiddenFor(x => x.Ogrenci_Id)
+            <input type="submit" value="Öğrenci Kaydet" class="btn btn-danger font-italic" style="margin-left:170px" />
+
+        }
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

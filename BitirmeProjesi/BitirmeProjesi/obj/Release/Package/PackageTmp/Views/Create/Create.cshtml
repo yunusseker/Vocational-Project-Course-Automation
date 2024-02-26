@@ -1,0 +1,64 @@
+﻿@model  BitirmeProjesi.Models.Öğrenciler
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Style.css" rel="stylesheet" type="text/css" />
+    <title>Öğrenci Kayıt</title>
+    <script src="~/Scripts/jquery-3.5.1.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <script src="~/Scripts/jquery-3.0.0.min.js"></script>
+    
+</head>
+<body class="arka">
+
+    <form method="post">
+
+        <div>
+            <div id="container" style="width:580px">
+                <h3 style="margin-left:10px;padding-top:10px;font-family:Cambria;">Öğrenci Kayıt</h3><hr />
+                <span style="margin-left:10px; font-size:20px; font-style:italic">Adınızı Girin:</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; @Html.TextBoxFor(Model => Model.OgrenciAd)
+                <br />&emsp;@Html.ValidationMessageFor(Model => Model.OgrenciAd, "", new { @style = "color:red" })<br />
+                <span style="margin-left:10px; font-size:20px; font-style:italic">Soyadınızı Girin: </span>&emsp;&emsp;&emsp;&emsp;&emsp; @Html.TextBoxFor(Model => Model.OgrenciSoyad)
+                <br /> &emsp;@Html.ValidationMessageFor(Model => Model.OgrenciSoyad, "", new { @style = "color:red" })<br />
+                <span style="margin-left:10px; font-size:20px; font-style:italic">Kullanıcı Adınızı Girin: </span> &emsp;&emsp;@Html.TextBoxFor(Model => Model.KullanıcıAd)
+                <br />&emsp;@Html.ValidationMessageFor(Model => Model.KullanıcıAd, "", new { @style = "color:red" })<br />
+                <span style="margin-left:10px; font-size:20px;font-style:italic">Şifre Girin:  </span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;@Html.PasswordFor(Model => Model.Şifre)
+                <br />&emsp;@Html.ValidationMessageFor(Model => Model.Şifre, "", new { @style = "color:red" })<br />
+                <span style="margin-left:10px; font-size:20px; font-style:italic">Bölümünüzü Seçin: </span>
+                &emsp;&emsp;&emsp;&emsp;@Html.DropDownListFor(Model => Model.Bölüm_Id, ViewBag.bölümlist as SelectList, "Bölüm Seçiniz")
+                
+                <br /><br /> <input onclick="bilgi()" type="submit" value="Kayıt Ol" style=" width:120px; height:45px;margin-top:25px;margin-left:230px; font-style:italic" class="btn btn-success" />
+
+
+            </div><!--container kapatildi-->
+            
+        </div>
+    </form>
+
+
+
+    <div id="footer" style="margin-top:532px">
+
+        <span class="font-italic" style="margin-left:500px;">Bizi Takip Edin </span>
+
+        <i class="fa fa-facebook-square" style="margin-left:25px; font-size:30px; margin-top:532px"></i>
+        <i class="fa fa-twitter-square" style="font-size:30px; margin-left:20px;"></i>
+        <i class="fa fa-linkedin-square" style="font-size:30px; margin-left:20px;"></i>
+        <i class="fa fa-instagram" style="font-size:30px; margin-left:20px;"></i>
+        <i class="fa fa-youtube-square" style="font-size:30px; margin-left:20px;"></i>
+
+    </div><!-- footer kapatildi-->
+
+
+</body>
+</html>
+

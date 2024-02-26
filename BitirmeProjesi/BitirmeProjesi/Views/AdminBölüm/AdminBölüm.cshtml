@@ -1,0 +1,96 @@
+﻿@using BitirmeProjesi.Models
+@model List<Bölümler>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AdminBölüm</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <script src="~/Scripts/jquery-3.0.0.min.js"></script>
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/Style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    <div class="vertical-nav bg-white" id="sidebar;" style="width:280px;">
+
+        <ul class="nav flex-column bg-white mb-0">
+
+            <li class="nav-item">
+                <a href="/AdminOgrenci/AdminOgrenci" class="nav-link text-dark font-italic bg-light">
+                    Öğrenciler
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/AdminAkademisyen/AdminAkademisyen" class="nav-link text-dark font-italic bg-light">
+                    Akademisylenler
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/AdminProje/AdminProje" class="nav-link text-dark font-italic bg-light">
+                    Projeler
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/AdminBölüm/AdminBölüm" class="nav-link text-dark font-italic bg-light">
+                    Bölümler
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/OgrenciLogin/LogOut" style="color:black" class="nav-link text-dark font-italic">
+                    Çıkış Yap
+                </a>
+            </li>
+
+        </ul>
+        <div class="page-content p-5 " id="content">
+        </div>
+
+    </div>
+
+    <div class="adminiçerik">
+        <table class="table" style="width:70%">
+            <tr class="thead-dark">
+
+                <th scope="col">ID</th>
+                <th scope="col">Bölümler</th>
+                <th scope="col">Durum</th>
+                <th></th>
+                <th></th>
+            </tr>
+
+            <tbody>
+                @foreach (var blm in Model)
+                {
+                    <tr>
+                        <td>@blm.Bölüm_Id</td>
+                        <td>@blm.BölümAd</td>
+                        <td> <a href="/AdminBölüm/AdminBölümSil/@blm.Bölüm_Id" class="btn btn-dark font-italic"> Sil</a>  |  <a href="/AdminBölüm/AdminBölümGüncelle/@blm.Bölüm_Id" class="btn btn-danger font-italic">Güncelle</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+
+        <a href="/AdminBölüm/AdminBölümEkle" class="btn btn-info">Bölüm Ekle</a>
+
+    
+
+    </div>
+
+</body>
+
+
+</html>
+
+

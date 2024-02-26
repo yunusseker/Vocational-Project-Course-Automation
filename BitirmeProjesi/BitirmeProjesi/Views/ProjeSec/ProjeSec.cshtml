@@ -1,0 +1,85 @@
+﻿@using BitirmeProjesi.Models
+@model List<Projeler>
+
+
+
+
+@{
+    ViewBag.Title = "ProjeSec";
+    Layout = "~/Views/OgrenciMenu/_Layout.cshtml";
+
+    DbOTOMASYONEntities entitiess = new DbOTOMASYONEntities();
+
+
+}
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="~/Scripts/jquery-3.5.1.js"></script>
+<meta charset="utf-8">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<div style="position:relative; bottom:60px;margin-left:60px; object-fit ">
+    <p class="font-weight-light text-muted mb-0">Bulunduğunuz Bölüm : @Session["BolumAdi"]</p>
+    <p class="font-weight-light text-muted mb-0">Seçilen Proje ID : @Session["ProjeId"]</p>
+    <p class="font-weight-light text-muted mb-0">Seçilen Proje Adı :@Session["ProjeAdi"]</p>
+</div>
+<span id="ControllerMessage">@ViewBag.x</span>
+
+<table class="table" style="position:relative; bottom:50px;">
+    <tr class="thead-dark">
+        <th scope="col">Akademisyen ID</th>
+        <th scope="col">Projeler</th>
+        <th scope="col">Proje Tanımı</th>
+        <th scope="col">Proje ID    </th>
+        <th scope="col">Seç</th>
+    </tr>
+    <tbody>
+        @foreach (var prj in Model)
+        {
+            string ButtonStatus = ""; // disabled
+            string TextColor = "black";
+            bool DelText = false;
+            
+
+
+            var dbResult = entitiess.Öğrenciler.SingleOrDefault(Öğrenciler => Öğrenciler.Proje_Id == prj.Proje_Id);
+            
+            if (dbResult != null)
+            {
+                ButtonStatus = "disabled";
+                TextColor = "red";
+                DelText = true;
+                
+            }
+            
+            <tr>
+                <td style="color: @TextColor" class="font-italic">@prj.Akademisyen_Id</td>
+                <td style="color: @TextColor" class="font-italic">
+
+                    @if (DelText == true)
+                    {
+
+                        <del class="font-italic"> @prj.ProjeAd </del>
+
+                    }
+                    else
+                    {
+
+
+                        @prj.ProjeAd
+
+                    }
+
+                </td>
+
+                <td style="color: @TextColor" class="font-italic">@prj.ProjeTanimi</td> 
+                <td style="color: @TextColor" class="font-italic"> @prj.Proje_Id </td>
+                <td class="font-italic"> <a href="/ProjeSec/Sec/@prj.Proje_Id" class="btn btn-dark font-italic @ButtonStatus"> Seç </a></td>
+            </tr>
+        }
+       
+        
+
+
+    </tbody>
+</table>
+
